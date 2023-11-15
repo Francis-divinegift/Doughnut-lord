@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    background-color: rgb(142, 227, 233);
+    min-height: 100vh;
+}
+.header{
+    min-height: 10vh;
+    text-align: center;
+}
+main{
+min-height: 90vh;
+/* border: 2px solid; */
+}
+form{
+    border:2px solid ;
+    background-color: rgb(127, 157, 255);
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 20px;
+}
+input{
+    padding:7px ;
+    width: 100% ;
+    border-radius: 20px;
+}
+button{
+    padding: 6px;
+    border-radius:20px ;
+}
+.login:hover{
+    background-color: gold;
+}
+.signup:hover{
+    background-color: gold
+}
